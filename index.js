@@ -3,10 +3,10 @@ function shout(string) {
 }
 
 function whisper(string) {
-  return string.toLowerCase()
+  console.log(string.toLowerCase());
+  return
 }
 
-logShout(string)
 function logShout(string) {
   console.log(string.toLowerCase());
   return 
